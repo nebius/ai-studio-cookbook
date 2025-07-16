@@ -1,8 +1,10 @@
 from llama_index.core.tools import FunctionTool
-from llama_index.core.agent import ReActAgent
+from llama_index.core.agent.workflow import ReActAgent
+from llama_index.core.workflow import Context
 from llama_index.llms.nebius import NebiusLLM
 from dotenv import load_dotenv
 import os
+import asyncio
 from datetime import datetime
 
 # Load environment variables
@@ -50,40 +52,45 @@ duration_tool = FunctionTool.from_defaults(fn=calculate_task_duration)
 estimate_tool = FunctionTool.from_defaults(fn=estimate_task_completion)
 productivity_tool = FunctionTool.from_defaults(fn=calculate_productivity)
 
-# Create the agent
-agent = ReActAgent.from_tools(
-    [duration_tool, estimate_tool, productivity_tool],
-    llm=NebiusLLM(
-        model="Qwen/Qwen3-30B-A3B",
-        # model="Qwen/Qwen3-235B-A22B",
-        api_key=os.getenv("NEBIUS_API_KEY")
-    ),
+# Create the LLM
+llm = NebiusLLM(
+    model="Qwen/Qwen3-30B-A3B",
+    # model="Qwen/Qwen3-235B-A22B",
+    api_key=os.getenv("NEBIUS_API_KEY")
+)
+
+# Create the agent using the new workflow-based ReActAgent
+agent = ReActAgent(
+    tools=[duration_tool, estimate_tool, productivity_tool],
+    llm=llm,
     verbose=True,
 )
 
-# Example usage
-print("\nTask Management Assistant")
-print("------------------------")
+async def run_agent_question(question: str, ctx: Context):
+    """Run a single question through the agent"""
+    print(f"user: {question}")
+    handler = agent.run(question, ctx=ctx)
+    response = await handler
+    print(f"\nResponse: {response}")
+    print('---------------------')
+    return response
 
-print("------------------------")
-question = "What are your capabilities?"
-print ("user:", question)
-response = agent.chat(question)
-print("\nResponse:", response)
-print ('---------------------')
+async def main():
+    """Main async function"""
+    # Create a context to store the conversation history/session state
+    ctx = Context(agent)
+    
+    print("\nTask Management Assistant")
+    print("------------------------")
 
-print("------------------------")
-question = "If I worked from 09:00 to 17:00 and completed 8 tasks, what was my productivity rate?"
-print ("user:", question)
-response = agent.chat(question)
-print("\nResponse:", response)
-print ('---------------------')
+    print("------------------------")
+    await run_agent_question("What are your capabilities?", ctx)
 
+    print("------------------------")
+    await run_agent_question("If I worked from 09:00 to 17:00 and completed 8 tasks, what was my productivity rate?", ctx)
 
-# Add a more complex example
-print("------------------------")
-question = "If I have 3 tasks that each take 45 minutes, how long will it take to complete them all?"
-print ("user:", question)
-response = agent.chat(question)
-print("\nResponse:", response)
-print ('---------------------')
+    print("------------------------")
+    await run_agent_question("If I have 3 tasks that each take 45 minutes, how long will it take to complete them all?", ctx)
+
+if __name__ == "__main__":
+    asyncio.run(main())
