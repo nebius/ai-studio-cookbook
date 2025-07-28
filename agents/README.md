@@ -14,7 +14,7 @@ Jump to:
     - [Agno](#agno)
     - [Llama-index](#llama-index)
     - [Pydantic AI](#pydantic-ai)
-
+    - [Strands Agents](#strands-agents)
 
 
 ## Agents by Functionality
@@ -31,6 +31,7 @@ Jump to:
 | [Agno websearch agent](agno-agents-examples/) | Use web search to do research  | Agno + Duckduckgo | 
 | [Llama-index task timer](llamaindex-task-timer/) | Calculate time spent on tasks | Llama-index | 
 | [Pydantic weather agent](pydantic-weather-agent/) | Get weather info in realtime  | Pydantic + Duckduckgo | 
+| [AWS Strands Weather Agent](aws-strands-weather-agent/) | Weather assistant using Strands SDK and Nebius LLMs | Strands + Nebius + NWS | 
 
 
 ### Intermediate Agents
@@ -76,3 +77,9 @@ Jump to:
 | Agent | Descripton                                          | Tech Stack           |
 |-----------|-----------------------------------------------|-----------------------|
 | [Pydantic weather agent](pydantic-weather-agent/) | Get weather info in realtime  | Pydantic + Duckduckgo | 
+
+### [Strands Agent](https://strandsagents.com/latest/)
+
+| Agent | Descripton                                          | Tech Stack           |
+|-----------|-----------------------------------------------|-----------------------|
+| [AWS Strands Weather Agent](aws-strands-weather-agent/) | Weather assistant | AWS Strands SDK  | 
