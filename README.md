@@ -11,16 +11,12 @@ This cookbook respository is a collection of guides and examples for working wit
 
 ## 😎 Featured
 
-- New [model guides](models/README.md) (e.g. GPT-OSS, Qwen3-2507)
-- Community contributions: [open bench evaluation guide](community/openbench-evaluation-guide/)
+- [Events](community/events.md) supported by Nebius AI.
+- [Community contributions](community/README.md)
 - [Distillation guide](distillation/distillation-1/)
 - [Create fun images using LORA adapters](lora/lora-1/README.md)
 - [Fun benchmark "pelican riding a bicycle"](fun/pelican-riding-bicycle/)
-
-### 💪 [Cool Apps / Demos](apps/README.md)
-
-See apps powered by Nebius AI - WhatLLM, Streetfighter and more
-
+- [Cool Apps / Demos](apps/README.md)
 
 ---
 
