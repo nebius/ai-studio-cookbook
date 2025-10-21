@@ -49,6 +49,12 @@ Access AI Studio using various APIs.
 
 ---
 
+## ⛓️ [Integrations](https://docs.studio.nebius.com/integrations/overview)
+
+See integrations with other frameworks and APIs
+
+---
+
 ## 🕶️ [Fun and Cool Stuff](fun/)
 
 Have some fun with models.  
