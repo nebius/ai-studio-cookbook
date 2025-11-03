@@ -7,7 +7,7 @@ class SearchAgent:
         self.exa = Exa(Config.EXA_API_KEY)
     
     async def search_web(self, query: str, num_results: int = None) -> List[Dict[str, Any]]:
-        """Search the web, prioritizing Nebius Studio sources"""
+        """Search the web, prioritizing Nebius Token Factory sources"""
         if num_results is None:
             num_results = Config.DEFAULT_SEARCH_RESULTS
 
@@ -26,8 +26,8 @@ class SearchAgent:
                 text=True,
                 use_autoprompt=True,
                 include_domains=[
-                    "studio.nebius.com",
-                    "docs.studio.nebius.com",
+                    "tokenfactory.nebius.com",
+                    "docs.tokenfactory.nebius.com",
                     "docs.nebius.com/studio"
                 ]
             )

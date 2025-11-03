@@ -19,9 +19,9 @@
 
 ## Try it Out!
 
-[Try it in the Token Factory playground](https://studio.nebius.com/playground?models=openai/gpt-oss-120b)  (120B model)
+[Try it in the Token Factory playground](https://tokenfactory.nebius.com/playground?models=openai/gpt-oss-120b)  (120B model)
 
-[Try it in the Token Factory playground](https://studio.nebius.com/playground?models=openai/gpt-oss-20b)  (20B model)
+[Try it in the Token Factory playground](https://tokenfactory.nebius.com/playground?models=openai/gpt-oss-20b)  (20B model)
 
 Try with API:  [gpt_oss_1.ipynb](qwen3_2507_1.ipynb)  &nbsp; 
 [![Launch in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nebius/token-factory-cookbook/blob/main/models/gpt_oss_1.ipynb)

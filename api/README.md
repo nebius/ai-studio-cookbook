@@ -4,7 +4,7 @@ This guide shows how to run models using various python APIs.
 
 ## References and Acknowledgements
 
-- [API documentation](https://docs.nebius.com/studio/inference/quickstart)
+- [API documentation](https://docs.tokenfactory.nebius.com//inference/quickstart)
 
 ## Prerequisites
 
@@ -17,11 +17,11 @@ This is the default API. OpenAI API comptable.
 
 Example code: [api_native.ipynb](api_native.ipynb)
 
-[API reference](https://studio.nebius.com/api-reference)
+[API reference](https://tokenfactory.nebius.com/api-reference)
 
 ## Thirdparty APIs 
 
-Nebius Token Factory also supports [third party APIs](https://docs.nebius.com/studio/inference/integrations).  Here are some examples
+Nebius Token Factory also supports [third party APIs](https://docs.tokenfactory.nebius.com//inference/integrations).  Here are some examples
 
 ## AISuite
 
@@ -44,7 +44,7 @@ Example code: [api_llamaindex.ipynb](api_llamaindex.ipynb)
 
 ## More Thirdparty APIs
 
-See [Nebius third party API documentation](https://docs.nebius.com/studio/inference/integrations) for complete list.
+See [Nebius third party API documentation](https://docs.tokenfactory.nebius.com//inference/integrations) for complete list.
 
 
 

@@ -12,7 +12,7 @@ In this tutorial, we demonstrate how to perform distillation using **Nebius Toke
   - [3 - Generate Synthetic Data](#3---generate-synthetic-data)
   - [4 - Fine tuning](#4---fine-tuning)
   - [5 - Verifing the distilled model](#5---verifing-the-distilled-model)
-  - [6 - Your distilled model in Nebius Studio](#6---your-distilled-model-in-nebius-studio)
+  - [6 - Your distilled model in Nebius Token Factory](#6---your-distilled-model-in-nebius-studio)
   - [7 - Using your distilled model](#7---using-your-distilled-model)
   - [8 - Use the distilled model using an API](#8---use-the-distilled-model-using-an-api)
   - [References](#references)
@@ -113,7 +113,7 @@ The fine tuned model will be saved into `models` directory.
 
 Run this notebook:  [2_training.ipynb](2_training.ipynb)
 
-You can see fine tuning jobs' status on the [Studio fine-tuning dashboard](https://studio.nebius.com/fine-tuning) 
+You can see fine tuning jobs' status on the [Studio fine-tuning dashboard](https://tokenfactory.nebius.com/fine-tuning) 
 
 ![](images/fine-tuning-1.png)
 
@@ -125,7 +125,7 @@ We will use another powerful LLM **DeepSeek-R1** as an evaluator
 
 Run notebook: [3_evaluate_model.ipynb](3_evaluate_model.ipynb)
 
-## 6 - Your distilled model in Nebius Studio
+## 6 - Your distilled model in Nebius Token Factory
 
 Find your distilled models in **models --> custom** section
 
@@ -143,7 +143,7 @@ Here you see the **distilled model** performing an  grammer correction
 
 See our [API examples](../../api/README.md)
 
-And [documentation](https://docs.nebius.com/studio/inference/quickstart)
+And [documentation](https://docs.tokenfactory.nebius.com//inference/quickstart)
 
 
 ## References

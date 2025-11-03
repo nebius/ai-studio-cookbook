@@ -1,5 +1,7 @@
 # Setting up Dev Environment
 
+Each project in this repo will have their own setup guide.  This is a generic setup guide shows how to get API key and setup local python dev env.
+
 ## 1 - Clone the repo
 
 ```bash
@@ -11,7 +13,7 @@ cd    token-factory-cookbook
 
 To run most of the examples in this repo, you will need a **Nebius API Key**.  Here is how to get it.
 
-1) Go to [studio.nebius.com](https://studio.nebius.com/)
+1) Go to [tokenfactory.nebius.com](https://tokenfactory.nebius.com/)
 
 2) Click on your profile and go to API Keys section
 
@@ -44,6 +46,8 @@ Follow the steps below for setting up a local python environment.
 
 **Option 1 (Recommended): using UV**
 
+[uv](https://github.com/astral-sh/uv) is our preferred package manager.
+
 If the project is a 'native' uv project  - it has  files like `uv.lock` and `pyproject.toml`
 
 ```bash
@@ -75,8 +79,8 @@ uv run python code.py
 **Option 2: Using Anaconda / mini-forge**
 
 ```bash
-conda create -n studio-1 python=3.11
-conda activate studio-1
+conda create -n nebius-cookbook-1 python=3.11
+conda activate nebius-cookbook-1
 pip install -r requirements.txt
 
 # run notebooks like

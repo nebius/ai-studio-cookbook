@@ -13,7 +13,7 @@ Internal Support Agent is a Retrieval-Augmented Generation (RAG) assistant combi
 - **Web Search**: Real-time information retrieval via Exa.ai.
 - **Document Processing**: Upload and process `.txt`, `.pdf`, `.docx`, and `.md` files.
 - **Vector Storage**: Efficient chunking and storage in Weaviate.
-- **LLM Generation**: Advanced reasoning using Nebius Studio models.
+- **LLM Generation**: Advanced reasoning using Nebius Token Factory models.
 - **Intelligent Support**: Auto assessment and proactive support via Notion and Calendly.
 - **Slack Integration**: DMs, channel `@mentions`, and `/rag` command.
 - **Streamlit Frontend**: Modern dark‑themed chat UI and document management.
@@ -31,7 +31,7 @@ Internal Support Agent is a Retrieval-Augmented Generation (RAG) assistant combi
 - **Agents**: Modular agents for search, embedding, document processing, LLM generation, and monitoring.
 - **Workflow**: Stateful orchestration using LangGraph (`graph/workflow.py`).
 - **Support Tools**: LangChain-style tools for Notion ticketing and Calendly scheduling (`tools/tools_notion_and_cal.py`).
-- **Environment Integration**: Uses Nebius Studio, Exa.ai, Weaviate, Notion, Calendly.
+- **Environment Integration**: Uses Nebius Token Factory, Exa.ai, Weaviate, Notion, Calendly.
 
 ### Workflow State
 
@@ -66,7 +66,7 @@ flowchart TD
 ### Prerequisites
 
 - Python 3.10+
-- API keys for Nebius Studio, Exa.ai, Weaviate, Notion, Calendly, Slack
+- API keys for Nebius Token Factory, Exa.ai, Weaviate, Notion, Calendly, Slack
 
 ### Installation
 
@@ -204,7 +204,7 @@ Model defaults (from `config.py`):
 - `LLM_MODEL = "zai-org/GLM-4.5"`
 - `EMBEDDING_MODEL = "Qwen/Qwen3-Embedding-8B"`
 
-To change models, open `config.py` and edit `LLM_MODEL` and/or `EMBEDDING_MODEL` to the desired Nebius Studio identifiers.
+To change models, open `config.py` and edit `LLM_MODEL` and/or `EMBEDDING_MODEL` to the desired Nebius Token Factory identifiers.
 
 ---
 

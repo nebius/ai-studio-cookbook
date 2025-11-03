@@ -2,10 +2,10 @@ const axios = require('axios');
 
 class NebiusService {
   constructor() {
-    this.baseUrl = process.env.NEBIUS_API_URL || 'https://api.studio.nebius.com/v1';
+    this.baseUrl = process.env.NEBIUS_API_URL || 'https://api.tokenfactory.nebius.com/v1';
     this.apiKey = process.env.NEBIUS_API_KEY;
     this.folderId = process.env.NEBIUS_FOLDER_ID;
-    this.useStudioAPI = true; // Try Studio API first
+    this.useStudioAPI = true; // Try Token Factory API first
     
     if (!this.apiKey) {
       console.warn('⚠️ NEBIUS_API_KEY not set. Nebius service will not work properly.');
@@ -20,10 +20,10 @@ class NebiusService {
 
       // Use Studio API only for now
       try {
-        console.log('🔗 Using Studio API...');
+        console.log('🔗 Using Nebius Token Factory API...');
         return await this.generateTextWithStudioAPI(prompt, model, maxTokens);
       } catch (error) {
-        console.error('❌ Studio API failed:', error.message);
+        console.error('❌ Token Factory API failed:', error.message);
         console.error('❌ Error details:', {
           status: error.response?.status,
           data: error.response?.data,

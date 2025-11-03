@@ -15,7 +15,7 @@ A powerful AI agent template built with LlamaIndex that demonstrates how to crea
 ## References and Acknowledgements
 
 - [LlamaIndex docs](https://docs.llamaindex.ai/en/stable/)
-- [Nebius AI](https://studio.nebius.ai/)
+- [Nebius AI](http://tokenfactory.nebius.com/)
 - Contributed from [awesome-ai-apps](https://github.com/Arindam200/awesome-ai-apps)
 
 ## Tech Stack
@@ -27,7 +27,7 @@ A powerful AI agent template built with LlamaIndex that demonstrates how to crea
 ## Prerequisites
 
 - Python 3.10 or higher
-- Nebius API key (get it from [Nebius Token Factory](https://studio.nebius.ai/))
+- Nebius API key (get it from [Nebius Token Factory](http://tokenfactory.nebius.com/))
 
 ## Installation
 

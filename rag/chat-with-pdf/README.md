@@ -18,7 +18,7 @@ A powerful RAG (Retrieval-Augmented Generation) chat application built with Stre
 ## Prerequisites
 
 - Python 3.10
-- Nebius AI [API Keys](https://studio.nebius.com/?modals=create-api-key)
+- Nebius AI [API Keys](https://tokenfactory.nebius.com/?modals=create-api-key)
 
 ## Installation
 

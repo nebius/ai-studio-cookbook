@@ -15,7 +15,7 @@ A powerful AI agent built with Agno that analyzes and provides insights about Ha
 ## References and Acknowledgements
 
 - [Agno Framework](https://www.agno.com/)
-- [Nebius AI](https://studio.nebius.ai/)
+- [Nebius AI](http://tokenfactory.nebius.com/)
 - Contributed from [awesome-ai-apps](https://github.com/Arindam200/awesome-ai-apps)
 
 ## Tech Stack
@@ -27,7 +27,7 @@ A powerful AI agent built with Agno that analyzes and provides insights about Ha
 ## Prerequisites
 
 - Python 3.10 or higher
-- Nebius API key (get it from [Nebius Token Factory](https://studio.nebius.ai/))
+- Nebius API key (get it from [Nebius Token Factory](http://tokenfactory.nebius.com/))
 
 ## Installation
 

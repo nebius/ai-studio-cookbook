@@ -146,7 +146,7 @@
 - Validate Google API quotas and permissions.
 
 ## 📌 Additional Resources
-- [Nebius Token Factory](https://studio.nebius.com/)
+- [Nebius Token Factory](https://tokenfactory.nebius.com/)
 - [n8n Documentation](https://docs.n8n.io/)
 - [Google OAuth n8n Setup Guide](https://docs.n8n.io/integrations/builtin/credentials/Google/)
 

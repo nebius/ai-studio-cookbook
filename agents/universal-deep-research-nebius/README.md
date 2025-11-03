@@ -35,7 +35,7 @@ cp env.example .env
 # Optional (CORS for frontend):
 # FRONTEND_URL=http://localhost:3004
 # OpenAI-compatible Nebius base URL + model (already defaulted in this edition):
-# FRAME_BASE_URL=https://api.studio.nebius.com/v1/
+# FRAME_BASE_URL=https://api.tokenfactory.nebius.com/v1/
 # FRAME_MODEL=moonshotai/Kimi-K2-Instruct
 # Optional (web search):
 # echo "<your-tavily-key>" > tavily_api.txt
@@ -60,7 +60,7 @@ npm run dev -- -p 3004
 Open http://localhost:3004 and enter a prompt (e.g., “Tell me everything about Nebius Token Factory”).
 
 ## Notes
-- The backend uses an OpenAI‑compatible client pointed to `https://api.studio.nebius.com/v1/`.
+- The backend uses an OpenAI‑compatible client pointed to `https://api.tokenfactory.nebius.com/v1/`.
 - Default model is `moonshotai/Kimi-K2-Instruct`.
 - No secrets are committed; `.env*` and `*_api.txt` files are ignored.
 - This integrates the original NVIDIA research prototype with Nebius models; credits retained.

@@ -3,7 +3,7 @@ const { v4: uuidv4 } = require('uuid');
 
 class EmbeddingService {
   constructor() {
-    this.apiUrl = process.env.NEBIUS_API_URL || 'https://api.studio.nebius.com/v1';
+    this.apiUrl = process.env.NEBIUS_API_URL || 'https://api.tokenfactory.nebius.com/v1';
     this.apiKey = process.env.NEBIUS_API_KEY;
     this.model = 'Qwen/Qwen3-Embedding-8B';
     

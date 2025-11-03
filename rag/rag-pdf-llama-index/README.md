@@ -1,16 +1,16 @@
 # RAG Example with LLama-Index + Nebius
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nebius/token-factory-cookbook/blob/main/rag/rag-pdf-llama-index/rag_pdf_query.ipynb)
-[![](https://img.shields.io/badge/Powered%20by-Nebius%20AI-orange?style=flat&labelColor=orange&color=green)](https://nebius.com/ai-studio)
+[![](https://img.shields.io/badge/Powered%20by-Nebius%20AI-orange?style=flat&labelColor=orange&color=green)](http://tokenfactory.nebius.com/)
 
-This example shows querying a PDF using  [llama index](https://docs.llamaindex.ai/en/stable/) framework and running LLM on [Nebius Token Factory](https://studio.nebius.com/)
+This example shows querying a PDF using  [llama index](https://docs.llamaindex.ai/en/stable/) framework and running LLM on [Nebius Token Factory](https://tokenfactory.nebius.com/)
 
 
 ## References and Acknowledgements
 
 - [llamaindex documentation](https://docs.llamaindex.ai/en/stable/)
-- [Nebius Token Factory](https://studio.nebius.com/)
-- [Nebius Token Factory documentation](https://docs.nebius.com/studio/inference/quickstart)
+- [Nebius Token Factory](https://tokenfactory.nebius.com/)
+- [Nebius Token Factory documentation](https://docs.tokenfactory.nebius.com//inference/quickstart)
 
 
 ## Features
@@ -20,13 +20,13 @@ This example shows querying a PDF using  [llama index](https://docs.llamaindex.a
   - RAG framework: [llamaindex](https://docs.llamaindex.ai/)
   - open source embedding models: [BAAI/bge-small-en](https://huggingface.co/BAAI/bge-small-en) (fast and good performance) ,  [BAAI/bge-en-icl](https://huggingface.co/BAAI/bge-en-icl) (large and more accurate) etc.
   - powerful open source LLMs: **meta-llama/Llama-3.3-70B-Instruct**  or **Qwen/Qwen3-30B-A3B**
-  - [Nebius Token Factory](https://studio.nebius.com) to run models and embeddings
+  - [Nebius Token Factory](https://tokenfactory.nebius.com) to run models and embeddings
 - Run embedding models locally or on the cloud
 
 
 ## Pre requisites
 
-- Nebius API key.  Sign up for free at [Token Factory](https://studio.nebius.com/)
+- Nebius API key.  Sign up for free at [Token Factory](https://tokenfactory.nebius.com/)
 
 ## Run the code
 

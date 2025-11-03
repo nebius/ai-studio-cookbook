@@ -9,7 +9,7 @@
 
 ## Overview
 
-You can use LoRA adapters directly in the [Nebius Token Factory](https://studio.nebius.com/) UI.  This guide shows how to plug in a LoRA and make cool, themed images.
+You can use LoRA adapters directly in the [Nebius Token Factory](https://tokenfactory.nebius.com/) UI.  This guide shows how to plug in a LoRA and make cool, themed images.
 
 **Watch the video**
 
@@ -17,13 +17,13 @@ You can use LoRA adapters directly in the [Nebius Token Factory](https://studio.
 
 ## Pre-Requisites
 
-- Nebius Studio account.  Get a free one [here](https://studio.nebius.com/)
+- Nebius Token Factory account.  Get a free one [here](https://tokenfactory.nebius.com/)
 
 ## Quick start
 
 ### 1 - Select a model
 
-- Open [Nebius Token Factory](https://studio.nebius.com/)
+- Open [Nebius Token Factory](https://tokenfactory.nebius.com/)
 - Go to 'Text to image' section
 - select the model **`FLUX.1-schnell`**
 

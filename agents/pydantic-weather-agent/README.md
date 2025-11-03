@@ -21,7 +21,7 @@ A powerful AI agent built with PydanticAI that provides real-time weather inform
 ## Prerequisites
 
 - Python 3.8 or higher
-- Nebius API key (get it from [Nebius Token Factory](https://studio.nebius.ai/))
+- Nebius API key (get it from [Nebius Token Factory](http://tokenfactory.nebius.com/))
 
 ## Installation
 
@@ -89,5 +89,5 @@ The agent will fetch and display the weather forecast for the specified city (de
 ## References
 
 - [PydanticAI Framework](https://ai.pydantic.dev/)
-- [Nebius AI](https://studio.nebius.ai/)
+- [Nebius AI](http://tokenfactory.nebius.com/)
 - Contributed from [awesome-ai-apps](https://github.com/Arindam200/awesome-ai-apps)

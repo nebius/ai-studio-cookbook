@@ -21,7 +21,7 @@ This folder has the following agents:
 ## Prerequisites
 
 - Python 3.10 or higher
-- Nebius API key (get it from [Nebius Token Factory](https://studio.nebius.ai/))
+- Nebius API key (get it from [Nebius Token Factory](http://tokenfactory.nebius.com/))
 - Couchbase database credentials (for couchbase example)
 
 ## Installation
@@ -126,5 +126,5 @@ COUCHBASE_CONNECTION_STRING=
 ## References and Acknowledgements
 
 - [Agno Framework](https://www.agno.com/)
-- [Nebius AI](https://studio.nebius.ai/)
+- [Nebius AI](http://tokenfactory.nebius.com/)
 - Contributed from [awesome-ai-apps](https://github.com/Arindam200/awesome-ai-apps)

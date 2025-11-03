@@ -5,9 +5,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 class Config:
-    # Nebius Studio Configuration
+    # Nebius Token Factory Configuration
     NEBIUS_API_KEY = os.getenv("NEBIUS_API_KEY")
-    NEBIUS_BASE_URL = os.getenv("NEBIUS_BASE_URL", "https://api.studio.nebius.ai/v1")
+    NEBIUS_BASE_URL = os.getenv("NEBIUS_BASE_URL", "https://api.tokenfactory.nebius.com/v1")
     NOTION_API_KEY = os.getenv("NOTION_API_KEY")
     NOTION_DATABASE_ID = os.getenv("NOTION_DATABASE_ID")
     # Calendly: prefer CALENDLY_* but support legacy CAL_* envs

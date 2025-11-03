@@ -7,7 +7,7 @@ A simple yet powerful AI research crew built with CrewAI that leverages multiple
 - [CrewAI documentation](https://docs.crewai.com/)
 - [CrewAI + Nebius](https://docs.crewai.com/en/concepts/llms#nebius-ai-studio)
 - [CrewAI examples](https://github.com/crewAIInc/crewAI)
-- [Nebius Token Factory documentation](https://docs.nebius.com/studio/inference/quickstart)
+- [Nebius Token Factory documentation](https://docs.tokenfactory.nebius.com//inference/quickstart)
 - This example is contributed from [Arindam200/awesome-ai-apps](https://github.com/Arindam200/awesome-ai-apps)
 
 
@@ -22,7 +22,7 @@ A simple yet powerful AI research crew built with CrewAI that leverages multiple
 
 ## Prerequisites
 
-- Nebius API key (get it from [Nebius Token Factory](https://studio.nebius.ai/))
+- Nebius API key (get it from [Nebius Token Factory](http://tokenfactory.nebius.com/))
 - If running locally, python 3.10 or higher dev environment.
 
 ## Tech Stack

@@ -2,7 +2,7 @@
 
 <!-- <img src="images/banner-1.jpg"> -->
 
-This cookbook respository is a collection of guides and examples for working with open models using [Nebius Token Factory](https://studio.nebius.com/). Use these recipes to build and deploy intelligent applications faster.
+This cookbook respository is a collection of guides and examples for working with open models using [Nebius Token Factory](https://tokenfactory.nebius.com/). Use these recipes to build and deploy intelligent applications faster.
 
 
 > ⭐ If you find this repo useful, give it a star! You’ll be notified of new updates and help others discover it too — thank you!
@@ -23,7 +23,7 @@ This cookbook respository is a collection of guides and examples for working wit
 ## 🚀 Getting Started
 
 1. Prerequisites:
-   - You’ll need a Nebius Token Factory account and API key. Sign up for free [here](https://studio.nebius.com/).
+   - You’ll need a Nebius Token Factory account and API key. Sign up for free [here](https://tokenfactory.nebius.com/).
    - Python runtime (local, Google Colab etc.)
 2. Follow the [setup guide](setup-dev-env.md)
 3. Follow project-specific instructions**
@@ -32,7 +32,7 @@ This cookbook respository is a collection of guides and examples for working wit
 
 ## 🎁 [Models](models/)
 
-Checkout latest [model guides and sample code](models/).
+Checkout latest [model guides and sample code](models/README.md).
 
 Featuring: [Qwen3-2507](models/qwen3-2507.md) and [GPT-OSS](models/gpt-oss.md)
 
@@ -49,7 +49,7 @@ Access Token Factory using various APIs.
 
 ---
 
-## ⛓️ [Integrations](https://docs.studio.nebius.com/integrations/overview)
+## ⛓️ [Integrations](https://docs.tokenfactory.nebius.com/integrations/overview)
 
 See integrations with other frameworks and APIs
 
@@ -137,7 +137,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## 📔 Resources
 
-- [Nebius Token Factory Docs](https://docs.nebius.com/studio)
+- [Nebius Token Factory Docs](https://docs.tokenfactory.nebius.com/)
 - [Nebius AI Blog](https://nebius.com/blog)
 
 ---

@@ -10,7 +10,7 @@ class EmbeddingAgent:
         self.model = Config.EMBEDDING_MODEL
         
     async def generate_embeddings(self, texts: Union[str, List[str]]) -> List[List[float]]:
-        """Generate embeddings using Nebius Studio"""
+        """Generate embeddings using Nebius Token Factory"""
         if isinstance(texts, str):
             texts = [texts]
             

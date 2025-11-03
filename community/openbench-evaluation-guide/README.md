@@ -54,7 +54,7 @@ uv pip install -e .
 
 ### 3. Get your Nebius API key
 
-- Visit [studio.nebius.com](https://studio.nebius.com)
+- Visit [tokenfactory.nebius.com](https://tokenfactory.nebius.com)
 - Sign in with GitHub or Google
 - Go to **Account Settings → API Keys** and generate one
 
@@ -62,7 +62,7 @@ Then set the following environment variables:
 
 ```bash
 export OPENAI_API_KEY=your_nebius_api_key_here
-export OPENAI_BASE_URL=https://api.studio.nebius.com/v1
+export OPENAI_BASE_URL=https://api.tokenfactory.nebius.com/v1
 export INSPECT_MAX_CONNECTIONS=40
 ```
 
@@ -108,7 +108,7 @@ Then visit `http://localhost:7575` in your browser (if not blocked by firewall s
 
 ## 🤔 What Models Can I Test?
 
-Any Nebius-hosted model available in [Token Factory](https://studio.nebius.com/models) will work.  
+Any Nebius-hosted model available in [Token Factory](https://tokenfactory.nebius.com/models) will work.  
 You can try:
 
 - `openai/meta-llama/Meta-Llama-3.1-70B-Instruct`
@@ -162,5 +162,5 @@ This is invaluable for:
 
 Nebius Token Factory provides hosted inference for top OSS models, fast startup, and zero-retention API usage — all from Europe.
 
-- [Explore models](https://studio.nebius.com/models)
-- [Start testing](https://studio.nebius.com)
+- [Explore models](https://tokenfactory.nebius.com/models)
+- [Start testing](https://tokenfactory.nebius.com)

@@ -12,7 +12,7 @@ This example shows a sample 'tool calling' agent, built using Google's Agent Dev
 
 ## Prerequisites
 
-- Nebius API key (get it from [Nebius Token Factory](https://studio.nebius.ai/))
+- Nebius API key (get it from [Nebius Token Factory](http://tokenfactory.nebius.com/))
 - Python 3.10 or higher dev environment.
 
 

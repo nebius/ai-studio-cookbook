@@ -19,9 +19,9 @@
 
 ## Try it Out!
 
-[Try it in the Token Factory playground](https://studio.nebius.com/playground?models=zai-org/GLM-4.5)  (GLM4.5)
+[Try it in the Token Factory playground](https://tokenfactory.nebius.com/playground?models=zai-org/GLM-4.5)  (GLM4.5)
 
-[Try it in the Token Factory playground](https://studio.nebius.com/playground?models=zai-org/GLM-4.5-Air)  (GLM-4.5-Air)
+[Try it in the Token Factory playground](https://tokenfactory.nebius.com/playground?models=zai-org/GLM-4.5-Air)  (GLM-4.5-Air)
 
 Try with API:  [glm4.5_1.ipynb](glm4.5_1.ipynb)  &nbsp; 
 [![Launch in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nebius/token-factory-cookbook/blob/main/models/glm4.5_1.ipynb)
