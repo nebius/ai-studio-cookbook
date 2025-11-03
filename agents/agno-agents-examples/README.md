@@ -21,7 +21,7 @@ This folder has the following agents:
 ## Prerequisites
 
 - Python 3.10 or higher
-- Nebius API key (get it from [Nebius AI Studio](https://studio.nebius.ai/))
+- Nebius API key (get it from [Nebius Token Factory](https://studio.nebius.ai/))
 - Couchbase database credentials (for couchbase example)
 
 ## Installation
@@ -29,7 +29,7 @@ This folder has the following agents:
 **1. Get the code**
 
 ```bash
-git   clone    https://github.com/nebius/ai-studio-cookbook/
+git   clone    https://github.com/nebius/token-factory-cookbook/
 cd    agents/agno-agents-examples
 ```
 

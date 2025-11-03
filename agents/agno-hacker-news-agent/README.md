@@ -27,14 +27,14 @@ A powerful AI agent built with Agno that analyzes and provides insights about Ha
 ## Prerequisites
 
 - Python 3.10 or higher
-- Nebius API key (get it from [Nebius AI Studio](https://studio.nebius.ai/))
+- Nebius API key (get it from [Nebius Token Factory](https://studio.nebius.ai/))
 
 ## Installation
 
 **1. Get the code**
 
 ```bash
-git   clone    https://github.com/nebius/ai-studio-cookbook/
+git   clone    https://github.com/nebius/token-factory-cookbook/
 cd    agents/agno-hacker-news-agent
 ```
 

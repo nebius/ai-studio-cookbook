@@ -12,7 +12,7 @@ This example shows a sample 'tool calling' agent, built using Google's Agent Dev
 
 ## Prerequisites
 
-- Nebius API key (get it from [Nebius AI Studio](https://studio.nebius.ai/))
+- Nebius API key (get it from [Nebius Token Factory](https://studio.nebius.ai/))
 - Python 3.10 or higher dev environment.
 
 
@@ -21,7 +21,7 @@ This example shows a sample 'tool calling' agent, built using Google's Agent Dev
 **1 - get the code**
 
 ```bash
-git   clone    https://github.com/nebius/ai-studio-cookbook/
+git   clone    https://github.com/nebius/token-factory-cookbook/
 cd  agents/google-adk-tool-calling
 ```
 **2 - Install dependencies**

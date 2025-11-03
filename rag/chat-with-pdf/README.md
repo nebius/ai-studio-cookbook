@@ -25,7 +25,7 @@ A powerful RAG (Retrieval-Augmented Generation) chat application built with Stre
 **1. Clone the repository**
 
 ```bash
-git   clone    https://github.com/nebius/ai-studio-cookbook/
+git   clone    https://github.com/nebius/token-factory-cookbook/
 cd rag/chat-with-pdf
 ```
 

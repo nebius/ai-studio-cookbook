@@ -1,8 +1,8 @@
-# Run Models on Nebius AI Studio using APIs
+# Run Models on Nebius Token Factory using APIs
 
 This guide shows how to run models using various python APIs.
 
-## References and Acknoledgements
+## References and Acknowledgements
 
 - [API documentation](https://docs.nebius.com/studio/inference/quickstart)
 
@@ -21,7 +21,7 @@ Example code: [api_native.ipynb](api_native.ipynb)
 
 ## Thirdparty APIs 
 
-Nebius AI Studio also supports [third party APIs](https://docs.nebius.com/studio/inference/integrations).  Here are some examples
+Nebius Token Factory also supports [third party APIs](https://docs.nebius.com/studio/inference/integrations).  Here are some examples
 
 ## AISuite
 

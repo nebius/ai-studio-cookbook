@@ -22,7 +22,7 @@ A benchmarking tool built with the CAMEL framework that compares the performance
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/nebius/ai-studio-cookbook/.git
+git clone https://github.com/nebius/token-factory-cookbook/.git
 cd agents/camel-ai-model-comparison-agent
 ```
 

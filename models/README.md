@@ -1,4 +1,4 @@
-# Models on Nebius AI Studio
+# Models on Nebius Token Factory
 
 Recent model highlights:
 

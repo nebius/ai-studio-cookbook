@@ -1,17 +1,17 @@
-# Universal Deep Research (Nebius AI Studio) — Agent
+# Universal Deep Research (Nebius Token Factory) — Agent
 
-This agent demonstrates a multi‑step research pipeline powered by Nebius AI Studio models (OpenAI‑compatible) with a FastAPI backend and a Next.js frontend. It uses the model `moonshotai/Kimi-K2-Instruct` by default.
+This agent demonstrates a multi‑step research pipeline powered by Nebius Token Factory models (OpenAI‑compatible) with a FastAPI backend and a Next.js frontend. It uses the model `moonshotai/Kimi-K2-Instruct` by default.
 
 - Source app: https://github.com/demianarc/nebiusaistudiodeepresearch
 - Cookbook context: add this folder under `agents/`.
-- Nebius AI Studio Cookbook: https://github.com/nebius/ai-studio-cookbook
+- Nebius Token Factory Cookbook: https://github.com/nebius/token-factory-cookbook
 
 ## What it does
 - Plans search queries, fetches web results (Tavily), analyzes content, and generates a structured Markdown report using Nebius LLMs.
 - Streams progress and a final report to the UI.
 
 ## Prerequisites
-- Nebius AI Studio account and API key (`NEBIUS_API_KEY`)
+- Nebius Token Factory account and API key (`NEBIUS_API_KEY`)
 - Python 3.9+ (3.10+ recommended)
 - Node.js 18+
 
@@ -57,7 +57,7 @@ npm run dev -- -p 3004
 ```
 
 4) Use the UI
-Open http://localhost:3004 and enter a prompt (e.g., “Tell me everything about Nebius AI Studio”).
+Open http://localhost:3004 and enter a prompt (e.g., “Tell me everything about Nebius Token Factory”).
 
 ## Notes
 - The backend uses an OpenAI‑compatible client pointed to `https://api.studio.nebius.com/v1/`.
@@ -66,4 +66,4 @@ Open http://localhost:3004 and enter a prompt (e.g., “Tell me everything about
 - This integrates the original NVIDIA research prototype with Nebius models; credits retained.
 
 ## References
-- Nebius AI Studio Cookbook: https://github.com/nebius/ai-studio-cookbook
+- Nebius Token Factory Cookbook: https://github.com/nebius/token-factory-cookbook

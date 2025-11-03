@@ -1,4 +1,4 @@
-# Create Fun images Using LORA Adapters on AI Studio
+# Create Fun images Using LORA Adapters on Token Factory
 
   - [Overview](#overview)
   - [Pre-Requisites](#pre-requisites)
@@ -9,7 +9,7 @@
 
 ## Overview
 
-You can use LoRA adapters directly in the [Nebius AI Studio](https://studio.nebius.com/) UI.  This guide shows how to plug in a LoRA and make cool, themed images.
+You can use LoRA adapters directly in the [Nebius Token Factory](https://studio.nebius.com/) UI.  This guide shows how to plug in a LoRA and make cool, themed images.
 
 **Watch the video**
 
@@ -23,7 +23,7 @@ You can use LoRA adapters directly in the [Nebius AI Studio](https://studio.nebi
 
 ### 1 - Select a model
 
-- Open [Nebius AI Studio](https://studio.nebius.com/)
+- Open [Nebius Token Factory](https://studio.nebius.com/)
 - Go to 'Text to image' section
 - select the model **`FLUX.1-schnell`**
 

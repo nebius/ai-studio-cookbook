@@ -15,7 +15,7 @@ An AI-powered content generation platform that helps in creating social media po
 
 1. **Clone and setup environment:**
 ```bash
-git clone https://github.com/nebius/ai-studio-cookbook
+git clone https://github.com/nebius/token-factory-cookbook
 cd rag/content-gen-pipeline-qdrant
 cp backend/env.example backend/.env
 cp frontend/env.example frontend/.env
@@ -66,7 +66,7 @@ The platform supports two main workflows for content generation:
    - Engagement strategies
 
 **Features**:
-- Uses Nebius AI Studio (Llama-3.3-70B-Instruct model for generation, Qwen/Qwen3-Embedding-8B for embeddings)
+- Uses Nebius Token Factory (Llama-3.3-70B-Instruct model for generation, Qwen/Qwen3-Embedding-8B for embeddings)
 - RAG-enhanced generation using uploaded document context
 - Provides formatted, ready-to-use content
 - Stores generation history
@@ -82,7 +82,7 @@ The platform supports two main workflows for content generation:
 1. Upload documents through the web interface
 2. Automatic content extraction and processing
 3. Document chunking (1000 words with 200-word overlap)
-4. Vector embedding generation using Nebius AI Studio (Qwen/Qwen3-Embedding-8B)
+4. Vector embedding generation using Nebius Token Factory (Qwen/Qwen3-Embedding-8B)
 5. Storage in Qdrant Cloud vector database
 6. Context retrieval for content generation
 
@@ -205,7 +205,7 @@ nebius-qdrant/
 
 ## Features
 
-- **AI-Powered Content**: Uses Nebius AI Studio (Llama-3.3-70B-Instruct for generation, Qwen/Qwen3-Embedding-8B for embeddings) for high-quality content generation
+- **AI-Powered Content**: Uses Nebius Token Factory (Llama-3.3-70B-Instruct for generation, Qwen/Qwen3-Embedding-8B for embeddings) for high-quality content generation
 - **RAG-Enhanced Generation**: Context-aware content creation using uploaded documents
 - **Document Processing**: Automatic chunking, embedding, and storage
 - **Vector Search**: Qdrant Cloud integration for semantic search and context retrieval

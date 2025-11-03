@@ -3,8 +3,8 @@
 ## 1 - Clone the repo
 
 ```bash
-git   clone    https://github.com/nebius/ai-studio-cookbook/
-cd    ai-studio-cookbook
+git   clone    https://github.com/nebius/token-factory-cookbook/
+cd    token-factory-cookbook
 ```
 
 ## 2 - Get Nebius API Key

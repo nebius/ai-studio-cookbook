@@ -13,13 +13,13 @@ This example demonstrates how to build a end-to-end RAG pipeline using open sour
 ## Tech Stack
 
 - Parsing PDF documents using [llama-index](https://docs.llamaindex.ai/en/stable/)
-- Embedding model: [Qwen/Qwen3-Embedding-8B](https://huggingface.co/Qwen/Qwen3-Embedding-8B) - running on [Nebius AI Studio](https://studio.nebius.com/)
+- Embedding model: [Qwen/Qwen3-Embedding-8B](https://huggingface.co/Qwen/Qwen3-Embedding-8B) - running on [Nebius Token Factory](https://studio.nebius.com/)
 - Vector Database: [Milvus](https://milvus.io/)
-- LLMs: open source LLMs  (GPT-OSS / Qwen3 / DeepSeek) running on [Nebius AI Studio](https://studio.nebius.com/)
+- LLMs: open source LLMs  (GPT-OSS / Qwen3 / DeepSeek) running on [Nebius Token Factory](https://studio.nebius.com/)
 
 ## Pre requisites
 
-- Nebius API key.  Sign up for free at [AI Studio](https://studio.nebius.com/)
+- Nebius API key.  Sign up for free at [Token Factory](https://studio.nebius.com/)
 
 
 ## RAG Workflow
@@ -32,7 +32,7 @@ This example demonstrates how to build a end-to-end RAG pipeline using open sour
 **1. Get the code**
 
 ```bash
-git   clone    https://github.com/nebius/ai-studio-cookbook/
+git   clone    https://github.com/nebius/token-factory-cookbook/
 cd    rag/rag-milvus-1
 ```
 

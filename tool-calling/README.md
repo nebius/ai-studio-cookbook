@@ -1,15 +1,15 @@
 # Function / Tool Calling Examples
 
-Some examples showing how to do function/tool calling in Nebius AI Studio
+Some examples showing how to do function/tool calling in Nebius Token Factory
 
-## References and Acknoledgements
+## References and Acknowledgements
 
 - [API documentation](https://docs.nebius.com/studio/inference/quickstart)
 - [Tool calling docs](https://docs.nebius.com/studio/inference/tool-calling)
 
 ## Prerequisites
 
-- Nebius API key (get it from [Nebius AI Studio](https://studio.nebius.ai/))
+- Nebius API key (get it from [Nebius Token Factory](https://studio.nebius.ai/))
 
 ## Function Calling Explained
 

@@ -31,7 +31,7 @@ coming soon.
 
 ## Allycat
 
-[Allycat](https://github.com/The-AI-Alliance/allycat) can scrape a website, index its contents and allow chatting with the website content using LLMs running on Nebius AI Studio or locally.
+[Allycat](https://github.com/The-AI-Alliance/allycat) can scrape a website, index its contents and allow chatting with the website content using LLMs running on Nebius Token Factory or locally.
 
 Author: [Sujee Maniyam](https://sujee.dev/)  |   [@sujee_dev](https://x.com/sujee_dev/)
 

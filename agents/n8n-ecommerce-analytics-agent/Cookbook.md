@@ -3,7 +3,7 @@
 ## 🍲 Ingredients
 
 - An n8n account (self-hosted or cloud)
-- A Nebius AI Studio account
+- A Nebius Token Factory account
 - Google Sheets & Docs API credentials (OAuth)
 - A copy of your example Google Sheet (e-commerce transactions or similar)
 
@@ -16,7 +16,7 @@
 
 ### 2. Setup Nebius LLM Node
 
-- Use `deepseek-ai/DeepSeek-V3-0324-fast` from Nebius AI Studio.
+- Use `deepseek-ai/DeepSeek-V3-0324-fast` from Nebius Token Factory.
 - Add your Nebius API Key in credentials.
 - **Example Node Configuration:**
   ```json
@@ -146,7 +146,7 @@
 - Validate Google API quotas and permissions.
 
 ## 📌 Additional Resources
-- [Nebius AI Studio](https://studio.nebius.com/)
+- [Nebius Token Factory](https://studio.nebius.com/)
 - [n8n Documentation](https://docs.n8n.io/)
 - [Google OAuth n8n Setup Guide](https://docs.n8n.io/integrations/builtin/credentials/Google/)
 

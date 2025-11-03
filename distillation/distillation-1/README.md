@@ -1,6 +1,6 @@
 # Distillation Example
 
-In this tutorial, we demonstrate how to perform distillation using **Nebius AI Studio** to create a grammar-correcting model. We will:  
+In this tutorial, we demonstrate how to perform distillation using **Nebius Token Factory** to create a grammar-correcting model. We will:  
 
 1. Generate high-quality training data via batched LLM generation using the recently released **Qwen3-235B-A22B**.
 2. Fine-tune a **Qwen3-4B** non-reasoning student model using LoRA adapters  
@@ -30,7 +30,7 @@ For more details on how distillation works see : **[Distillation explained](dist
 **1. Get the code**
 
 ```bash
-git   clone    https://github.com/nebius/ai-studio-cookbook/
+git   clone    https://github.com/nebius/token-factory-cookbook/
 cd    distillation/distillation-1
 ```
 

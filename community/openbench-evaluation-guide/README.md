@@ -1,8 +1,8 @@
-# 🧪 End‑to‑End Guide ▸ Evaluating Nebius AI Studio Models with OpenBench
+# 🧪 End‑to‑End Guide ▸ Evaluating Nebius Token Factory Models with OpenBench
 
 OpenBench is a fast, standardized evaluation framework built by [@groqinc](https://github.com/groq) for reproducible LLM benchmarking.
 
-This guide shows how to evaluate **Nebius AI Studio-hosted open models** (like Meta Llama 3 and Qwen) on benchmarks like **MMLU**, using OpenBench and a single terminal command.
+This guide shows how to evaluate **Nebius Token Factory-hosted open models** (like Meta Llama 3 and Qwen) on benchmarks like **MMLU**, using OpenBench and a single terminal command.
 
 ---
 
@@ -15,7 +15,7 @@ It’s how we compare models like Llama 3, GPT-4, Claude, or Qwen using standard
 
 ## ⚡ Quick Preview
 
-We'll run a short evaluation on `Llama-3.3-70B-Instruct-fast` hosted by Nebius AI Studio:
+We'll run a short evaluation on `Llama-3.3-70B-Instruct-fast` hosted by Nebius Token Factory:
 
 ```bash
 bench eval mmlu \
@@ -108,7 +108,7 @@ Then visit `http://localhost:7575` in your browser (if not blocked by firewall s
 
 ## 🤔 What Models Can I Test?
 
-Any Nebius-hosted model available in [AI Studio](https://studio.nebius.com/models) will work.  
+Any Nebius-hosted model available in [Token Factory](https://studio.nebius.com/models) will work.  
 You can try:
 
 - `openai/meta-llama/Meta-Llama-3.1-70B-Instruct`
@@ -158,9 +158,9 @@ This is invaluable for:
 
 ---
 
-## 🔗 Nebius AI Studio
+## 🔗 Nebius Token Factory
 
-Nebius AI Studio provides hosted inference for top OSS models, fast startup, and zero-retention API usage — all from Europe.
+Nebius Token Factory provides hosted inference for top OSS models, fast startup, and zero-retention API usage — all from Europe.
 
 - [Explore models](https://studio.nebius.com/models)
 - [Start testing](https://studio.nebius.com)

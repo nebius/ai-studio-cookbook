@@ -2,12 +2,12 @@
 
 A simple yet powerful AI research crew built with CrewAI that leverages multiple specialized agents to discover and analyze groundbreaking technologies. 
 
-## References and Acknoledgements
+## References and Acknowledgements
 
 - [CrewAI documentation](https://docs.crewai.com/)
 - [CrewAI + Nebius](https://docs.crewai.com/en/concepts/llms#nebius-ai-studio)
 - [CrewAI examples](https://github.com/crewAIInc/crewAI)
-- [Nebius AI Studio documentation](https://docs.nebius.com/studio/inference/quickstart)
+- [Nebius Token Factory documentation](https://docs.nebius.com/studio/inference/quickstart)
 - This example is contributed from [Arindam200/awesome-ai-apps](https://github.com/Arindam200/awesome-ai-apps)
 
 
@@ -22,7 +22,7 @@ A simple yet powerful AI research crew built with CrewAI that leverages multiple
 
 ## Prerequisites
 
-- Nebius API key (get it from [Nebius AI Studio](https://studio.nebius.ai/))
+- Nebius API key (get it from [Nebius Token Factory](https://studio.nebius.ai/))
 - If running locally, python 3.10 or higher dev environment.
 
 ## Tech Stack
@@ -56,7 +56,7 @@ The code can be run locally or on Google colab.  Colab is recommended, as it doe
 1. Clone the repository:
 
 ```bash
-git clone   https://github.com/nebius/ai-studio-cookbook/
+git clone   https://github.com/nebius/token-factory-cookbook/
 cd  agents/crewai-research-agent
 ```
 2. Install dependencies:
@@ -86,7 +86,7 @@ NEBIUS_API_KEY=your_api_key_here
 ## Code
 
 [agent.ipynb](agent.ipynb) notebook can be run locally or Google Colab.
-- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nebius/ai-studio-cookbook/blob/main/agents/crewai-research-agent/agent.ipynb)
+- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nebius/token-factory-cookbook/blob/main/agents/crewai-research-agent/agent.ipynb)
 - run locally:  
     `uv run --with jupyter jupyter lab agent.ipynb`
 

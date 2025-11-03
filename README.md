@@ -1,8 +1,8 @@
-# Nebius AI Studio Cookbook
+# Nebius Token Factory Cookbook
 
-<img src="images/banner-1.jpg">
+<!-- <img src="images/banner-1.jpg"> -->
 
-This cookbook respository is a collection of guides and examples for working with open models using [Nebius AI Studio](https://studio.nebius.com/). Use these recipes to build and deploy intelligent applications faster.
+This cookbook respository is a collection of guides and examples for working with open models using [Nebius Token Factory](https://studio.nebius.com/). Use these recipes to build and deploy intelligent applications faster.
 
 
 > ⭐ If you find this repo useful, give it a star! You’ll be notified of new updates and help others discover it too — thank you!
@@ -23,7 +23,7 @@ This cookbook respository is a collection of guides and examples for working wit
 ## 🚀 Getting Started
 
 1. Prerequisites:
-   - You’ll need a Nebius AI Studio account and API key. Sign up for free [here](https://studio.nebius.com/).
+   - You’ll need a Nebius Token Factory account and API key. Sign up for free [here](https://studio.nebius.com/).
    - Python runtime (local, Google Colab etc.)
 2. Follow the [setup guide](setup-dev-env.md)
 3. Follow project-specific instructions**
@@ -40,7 +40,7 @@ Featuring: [Qwen3-2507](models/qwen3-2507.md) and [GPT-OSS](models/gpt-oss.md)
 
 ## 📘 [APIs](api/)
 
-Access AI Studio using various APIs.
+Access Token Factory using various APIs.
 
 [Open AI comptible API](api/api_native.ipynb)
 &nbsp;  • &nbsp;  [LiteLLM](api/api_litellm.ipynb)
@@ -137,14 +137,14 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## 📔 Resources
 
-- [Nebius AI Studio Docs](https://docs.nebius.com/studio)
+- [Nebius Token Factory Docs](https://docs.nebius.com/studio)
 - [Nebius AI Blog](https://nebius.com/blog)
 
 ---
 
 ## 🌟 GitHub Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=nebius/ai-studio-cookbook&type=Date)](https://www.star-history.com/#nebius/ai-studio-cookbook&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=nebius/token-factory-cookbook&type=Date)](https://www.star-history.com/#nebius/token-factory-cookbook&Date)
 
 ---
 
@@ -152,8 +152,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 Thanks to all of our amazing contributors!
 
-<a href="https://github.com/nebius/ai-studio-cookbook/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=nebius/ai-studio-cookbook" />
+<a href="https://github.com/nebius/token-factory-cookbook/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=nebius/token-factory-cookbook" />
 </a>
 
 ---
