@@ -1,6 +1,6 @@
 # Setting up Dev Environment
 
-Each project in this repo will have their own setup guide.  This is a generic setup guide shows how to get API key and setup local python dev env.
+Each project in this repo will have their own setup guide.  This will setup a basic python environment.
 
 ## 1 - Clone the repo
 
@@ -63,7 +63,7 @@ uv run python code.py
 If the project only has `requirements.txt` file (not a native UV project)
 
 ```bash
-uv venv --python 3.11
+uv venv --python 3.12
 source .venv/bin/activate
 
 uv pip install -r requirements.txt
@@ -75,11 +75,19 @@ uv run jupyter lab notebook.ipynb
 uv run python code.py
 ```
 
+You can also setup a custom kernel to use in IDEs like VSCode
+
+```bash
+source .venv/bin/activate
+python -m ipykernel install --user --name="cookbook-1" --display-name "cookbook-1"
+jupyter kernelspec list
+```
+
 
 **Option 2: Using Anaconda / mini-forge**
 
 ```bash
-conda create -n nebius-cookbook-1 python=3.11
+conda create -n nebius-cookbook-1 python=3.12
 conda activate nebius-cookbook-1
 pip install -r requirements.txt
 
@@ -88,6 +96,13 @@ jupyter lab notebook.ipynb
 
 # run python scripts
 python code.py
+```
+
+You can also setup a custom kernel to use in IDEs like VSCode
+
+```bash
+python -m ipykernel install --user --name="cookbook-1" --display-name "cookbook-1"
+jupyter kernelspec list
 ```
 
 **Option 3: Using Python venv**
@@ -102,6 +117,14 @@ jupyter lab notebook.ipynb
 
 # run python scripts
 python code.py
+```
+
+You can also setup a custom kernel to use in IDEs like VSCode
+
+```bash
+source .venv/bin/activate
+python -m ipykernel install --user --name="cookbook-1" --display-name "cookbook-1"
+jupyter kernelspec list
 ```
 
 

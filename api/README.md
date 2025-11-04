@@ -9,7 +9,19 @@ This guide shows how to run models using various python APIs.
 ## Prerequisites
 
 - NEBIUS_API_KEY
+
+## Setup Python Env
+
 - Be sure to finish [the setup](../setup-dev-env.md)
+- And install the requirements
+
+```bash
+# follow the seutp-dev-env.md guide above to set up your python env.
+
+# activate the python env
+source  .venv/bin/activate
+pip install -r  requirements.txt
+```
 
 ## OpenAI Compatible API
 

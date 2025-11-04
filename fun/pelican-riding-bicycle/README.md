@@ -13,8 +13,8 @@ It will generate a SVG code snippet.  Copy it and save it as an svg file (e.g. `
 
 See the screenshots below.
 
-<img src="studio-1.png" width="45%">
-<img src="studio-2.png" width="45%">
+<img src="token-factory-1.png" width="45%">
+<img src="token-factory-2.png" width="45%">
 
 
 You can view SVG file using any browser and modern graphic programs.
